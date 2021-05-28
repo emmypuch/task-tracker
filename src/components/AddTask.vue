@@ -68,6 +68,7 @@ export default {
 
 .form-control label {
   display: block;
+  color: #333;
 }
 
 .form-control input {
@@ -75,7 +76,8 @@ export default {
   height: 40px;
   margin: 5px;
   padding: 3px 7px;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  color: #333;
 }
 
 .form-control-check {
@@ -91,5 +93,10 @@ export default {
 .form-control-check input {
   flex: 2;
   height: 20px;
+}
+
+::placeholder {
+  color: #333;
+  font-size: 0.8rem;
 }
 </style>
